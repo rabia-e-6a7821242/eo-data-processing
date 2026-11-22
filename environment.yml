@@ -1,0 +1,21 @@
+name: eo-data
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - xarray
+  - netcdf4
+  - h5netcdf
+  - zarr
+  - dask
+  - scipy          # needed by xarray interp / interp_like
+  - pandas
+  - numpy
+  - matplotlib
+  - cartopy
+  - gcsfs          # anonymous access to the public ARCO-ERA5 Zarr store
+  - cdsapi         # Copernicus CDS / ADS download API
+  - jupyterlab
+  - jupytext       # notebooks are also kept as .py files
+  - nbconvert
+  - ipykernel

@@ -1,0 +1,5 @@
+format,size_MB,n_files,chunks (time x lat x lon),open_s,map_s,series_s,monthly_s
+netcdf_cds,120.9545,1,2920x21x41,0.0130,0.2733,0.1004,3.4032
+netcdf_contiguous,258.7225,1,contiguous,0.0047,0.0063,0.0206,0.1971
+zarr_map_chunks,164.6029,373,24x61x121,0.0129,0.0147,0.1854,0.3240
+zarr_series_chunks,173.6489,99,8760x10x10,0.0107,0.1014,0.0172,1.3070

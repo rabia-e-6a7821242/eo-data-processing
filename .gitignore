@@ -1,0 +1,11 @@
+# downloaded and converted data (re-create with scripts/download.py and scripts/convert_formats.py)
+data/
+
+# never commit API keys
+.cdsapirc
+.adsapirc
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
